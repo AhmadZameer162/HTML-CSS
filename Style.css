@@ -1,0 +1,72 @@
+body{
+margin: 0;
+pading: 0;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7eDtuBUBlF1xzqX3lq_10YAoEiGX_EJDAg&usqp=CAU);
+background-size: cover;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+
+}
+.login-form{
+    background-color:rgb(2, 6, 24);
+    width:  380px;
+    height: 350px;
+    margin: 0;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing:border-box;
+    transform: translate(-50%,-50%);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-form input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(211, 3, 3);
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    color: white
+}
+.login-form input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #0000ff;
+    color:white;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.login-form input[type="button"]:hover
+{
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+
+}
+.login-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-size: 18px;
+}
+.login-form img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -65px;
+    left:calc(87% - 50%)
+}
